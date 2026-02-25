@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/gully-cricket/",
 
   // Ensure public/ files (sw.js, manifest.json, icons) are served at root
   publicDir: "public",
